@@ -3,7 +3,7 @@ isHead=0
 isTail=1
 head_count=0
 tail_count=0
-echo "Welcome to Flip Coin Simulation Programm"
+echo "Welcom to  Flip Coin Simulation Programm"
 while [ $head_count -lt 21 ] && [ $tail_count -lt 21 ]
         do
                 flipCoin=$((RANDOM%2))
